@@ -3,7 +3,7 @@ import java.awt.event.*;
 import java.util.*;
 import javax.swing.*;
  
-public class Trafficsignal extends JFrame implements ItemListener {
+public class TrafficSignal extends JFrame implements ItemListener {
  
     JRadioButton jr1;
     JRadioButton jr2;
@@ -126,7 +126,7 @@ public class Trafficsignal extends JFrame implements ItemListener {
     public static void main(String args[])
     {
 
-        JFrame jf = new Trafficsignal("Traffic Light");
+        JFrame jf = new TrafficSignal("Traffic Light");
         jf.setSize(500, 500);
         jf.setVisible(true);
     }
